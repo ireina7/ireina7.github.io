@@ -10,14 +10,13 @@ function apply_config(c = config) {
     function set(id, content) {
         document.getElementById(id).innerHTML = content;
     }
-  console.log($('#title'));
     [
         ['title', c.UI.title],
-        //['footer', c.UI.footer],
-        //['prev_button', c.UI.prev],
-        //['next_button', c.UI.next],
-        //['menu_button', c.UI.menu],
-        //['query_content', '<b>' + c.UI.default_query_content + '</b>']
+        ['footer', c.UI.footer],
+        ['prev_button', c.UI.prev],
+        ['next_button', c.UI.next],
+        ['menu_button', c.UI.menu],
+        ['query_content', '<b>' + c.UI.default_query_content + '</b>']
     ].map(([k, v]) => set(k, v));
     UI.switch_theme(c.UI.theme);
 }
@@ -294,4 +293,3 @@ function show_query_yes_no(unit) {
     create_selections(['Y', 'N']);
 }
 main();
-//# sourceMappingURL=core.js.map

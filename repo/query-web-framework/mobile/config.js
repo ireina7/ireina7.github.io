@@ -18,4 +18,3 @@ let config = {
         classification: false,
     },
 };
-//# sourceMappingURL=config.js.map
