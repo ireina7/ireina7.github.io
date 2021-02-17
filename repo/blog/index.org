@@ -1,0 +1,46 @@
+#+Title:  Blog Index Map
+#+Author: Ireina
+#+Date:   <2021-02-17 Wed>
+#+OPTIONS: html-style:nil
+#+SETUPFILE: ./org/theme-bigblow-local.setup
+
+:PRELUDE:
+/Where do you want to go?/
+:END:
+
+* Categories
+
+** Programming
+*** Programming Languages
+*** System
+
+** Music
+*** Music Theory
+*** Piano
+*** Keyboard
+*** Guitar
+
+** Linguistics
+*** Chinese
+*** English
+*** Japanese
+
+** Math
+*** Algebra
+*** Analysis
+
+** アニメ
+*** 進撃の巨人
+*** Steins;Gate
+*** Death Note
+*** K-ON!
+
+
+* Diary
+
+** 2021
+*** February
+*** March
+*** April
+
+** 2022
