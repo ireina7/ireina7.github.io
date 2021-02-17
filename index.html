@@ -1,26 +1,285 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Page Title</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script>var exports = {};</script>
+<title>灰の魔女のblog</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./src/blog.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  body, h1, h2, h3, h4, h5, h6 {
+      font-family: "Monaco", sans-serif;
+  }
+  body, html {
+      height: 100%;
+      color: #777;
+      line-height: 1.8;
+  }
 
-</head>
+  /* Create a Parallax Effect */
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
 
+  /* First image (Logo. Full height) */
+  .bgimg-1 {
+      background-image: url('./img/ireina.jpg');
+      min-height: 100%;
+  }
+
+  /* Second image (Portfolio) */
+  .bgimg-2 {
+      background-image: url("./img/Girl-with-C-Programming.png");
+      min-height: 400px;
+  }
+
+  /* Third image (Contact) */
+  .bgimg-3 {
+      background-image: url("/img/img3.jpg");
+      min-height: 400px;
+  }
+
+  .blog-wide { letter-spacing: 10px; }
+  .blog-hover-opacity { cursor: pointer; }
+
+  /* Turn off parallax scrolling for tablets and phones */
+  @media only screen and (max-device-width: 1600px) {
+      .bgimg-1, .bgimg-2, .bgimg-3 {
+          background-attachment: scroll;
+          min-height: 400px;
+      }
+  }
+</style>
 <body>
-  <label> </label>
-  <label for="search">Query Web Framework</label>
-  <input type="file" name="base_file" id="base_file">
-  <form action="http://baidu.com/s" method="get">
-    <div>
-      <input name="wd" id="search" value="">
+
+<!-- Navbar (sit on top) -->
+<div class="blog-top">
+  <div class="blog-bar" id="myNavbar">
+    <a class="blog-bar-item blog-button blog-hover-black blog-hide-medium blog-hide-large blog-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="blog-bar-item blog-button">HOME</a>
+    <a href="#about" class="blog-bar-item blog-button blog-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#portfolio" class="blog-bar-item blog-button blog-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#contact" class="blog-bar-item blog-button blog-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="blog-bar-item blog-button blog-hide-small blog-right blog-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="blog-bar-block blog-white blog-hide blog-hide-large blog-hide-medium">
+    <a href="#about" class="blog-bar-item blog-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="blog-bar-item blog-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="blog-bar-item blog-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="blog-bar-item blog-button">SEARCH</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 blog-display-container blog-opacity-min" id="home">
+  <div class="blog-display-middle" style="white-space:nowrap;">
+    <span class="blog-center blog-padding-large blog-black blog-xlarge blog-wide blog-animate-opacity">Ireina's <span class="blog-hide-small">BLOG</span></span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="blog-content blog-container blog-padding-64" id="about">
+  <h3 class="blog-center">ABOUT ME</h3>
+  <p class="blog-center"><em>I love programming</em></p>
+  <p>This personal blog is underwork!</p>
+  <div class="blog-row">
+    <div class="blog-col m6 blog-center blog-padding-large">
+      <p><b><i class="fa fa-user blog-margin-right"></i>My Name</b></p><br>
+      <img src="/blogimages/avatar_hat.jpg" class="blog-round blog-image blog-opacity blog-hover-opacity-off" alt="Photo of Me" width="500" height="333">
     </div>
-    <div>
-      <button>search</button>
+
+    <!-- Hide this text on small devices -->
+    <div class="blog-col m6 blog-hide-small blog-padding-large">
+      <p>This personal blog is underwork!</p>
     </div>
-  </form>
+  </div>
+  <p class="blog-large blog-center blog-padding-16">Im really good at:</p>
+  <p class="blog-wide"><i class="fa fa-camera"></i>Photography</p>
+  <div class="blog-light-grey">
+    <div class="blog-container blog-padding-small blog-dark-grey blog-center" style="width:90%">90%</div>
+  </div>
+  <p class="blog-wide"><i class="fa fa-laptop"></i>Web Design</p>
+  <div class="blog-light-grey">
+    <div class="blog-container blog-padding-small blog-dark-grey blog-center" style="width:85%">85%</div>
+  </div>
+  <p class="blog-wide"><i class="fa fa-photo"></i>Photoshop</p>
+  <div class="blog-light-grey">
+    <div class="blog-container blog-padding-small blog-dark-grey blog-center" style="width:75%">75%</div>
+  </div>
+</div>
+
+<div class="blog-row blog-center blog-dark-grey blog-padding-16">
+  <div class="blog-quarter blog-section">
+    <span class="blog-xlarge">14+</span><br>
+    Partners
+  </div>
+  <div class="blog-quarter blog-section">
+    <span class="blog-xlarge">55+</span><br>
+    Projects Done
+  </div>
+  <div class="blog-quarter blog-section">
+    <span class="blog-xlarge">89+</span><br>
+    Happy Clients
+  </div>
+  <div class="blog-quarter blog-section">
+    <span class="blog-xlarge">150+</span><br>
+    Meetings
+  </div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 blog-display-container blog-opacity-min">
+  <div class="blog-display-middle">
+    <span class="blog-xxlarge blog-text-white blog-wide">PORTFOLIO</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="blog-content blog-container blog-padding-64" id="portfolio">
+  <h3 class="blog-center">MY WORK</h3>
+  <p class="blog-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="blog-row-padding blog-center">
+    <div class="blog-col m3">
+      <img src="/blogimages/p1.jpg" style="width:100%" onclick="onClick(this)" class="blog-hover-opacity" alt="The mist over the mountains">
+    </div>
+
+    <div class="blog-col m3">
+      <img src="/blogimages/p2.jpg" style="width:100%" onclick="onClick(this)" class="blog-hover-opacity" alt="Coffee beans">
+    </div>
+
+    <div class="blog-col m3">
+      <img src="/blogimages/p3.jpg" style="width:100%" onclick="onClick(this)" class="blog-hover-opacity" alt="Bear closeup">
+    </div>
+
+    <div class="blog-col m3">
+      <img src="/blogimages/p4.jpg" style="width:100%" onclick="onClick(this)" class="blog-hover-opacity" alt="Quiet ocean">
+    </div>
+  </div>
+
+  <div class="blog-row-padding blog-center blog-section">
+    <div class="blog-col m3">
+      <img src="/blogimages/p5.jpg" style="width:100%" onclick="onClick(this)" class="blog-hover-opacity" alt="The mist">
+    </div>
+
+    <div class="blog-col m3">
+      <img src="/blogimages/p6.jpg" style="width:100%" onclick="onClick(this)" class="blog-hover-opacity" alt="My beloved typewriter">
+    </div>
+
+    <div class="blog-col m3">
+      <img src="/blogimages/p7.jpg" style="width:100%" onclick="onClick(this)" class="blog-hover-opacity" alt="Empty ghost train">
+    </div>
+
+    <div class="blog-col m3">
+      <img src="/blogimages/p8.jpg" style="width:100%" onclick="onClick(this)" class="blog-hover-opacity" alt="Sailing">
+    </div>
+    <button class="blog-button blog-padding-large blog-light-grey" style="margin-top:64px">LOAD MORE</button>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="blog-modal blog-black" onclick="this.style.display='none'">
+  <span class="blog-button blog-large blog-black blog-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="blog-modal-content blog-animate-zoom blog-center blog-transparent blog-padding-64">
+    <img id="img01" class="blog-image">
+    <p id="caption" class="blog-opacity blog-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 blog-display-container blog-opacity-min">
+  <div class="blog-display-middle">
+     <span class="blog-xxlarge blog-text-white blog-wide">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="blog-content blog-container blog-padding-64" id="contact">
+  <h3 class="blog-center">WHERE I WORK</h3>
+  <p class="blog-center"><em>I'd love your feedback!</em></p>
+
+  <div class="blog-row blog-padding-32 blog-section">
+    <div class="blog-col m4 blog-container">
+      <img src="/blogimages/map.jpg" class="blog-image blog-round" style="width:100%">
+    </div>
+    <div class="blog-col m8 blog-panel">
+      <div class="blog-large blog-margin-bottom">
+        <i class="fa fa-map-marker fa-fw blog-hover-text-black blog-xlarge blog-margin-right"></i> Chicago, US<br>
+        <i class="fa fa-phone fa-fw blog-hover-text-black blog-xlarge blog-margin-right"></i> Phone: +00 151515<br>
+        <i class="fa fa-envelope fa-fw blog-hover-text-black blog-xlarge blog-margin-right"></i> Email: mail@mail.com<br>
+      </div>
+      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+      <form action="/action_page.php" target="_blank">
+        <div class="blog-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="blog-half">
+            <input class="blog-input blog-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="blog-half">
+            <input class="blog-input blog-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="blog-input blog-border" type="text" placeholder="Message" required name="Message">
+        <button class="blog-button blog-black blog-right blog-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="blog-center blog-black blog-padding-64 blog-opacity blog-hover-opacity-off">
+  <a href="#home" class="blog-button blog-light-grey"><i class="fa fa-arrow-up blog-margin-right"></i>To the top</a>
+  <div class="blog-xlarge blog-section">
+    <i class="fa fa-facebook-official blog-hover-opacity"></i>
+    <i class="fa fa-instagram blog-hover-opacity"></i>
+    <i class="fa fa-snapchat blog-hover-opacity"></i>
+    <i class="fa fa-pinterest-p blog-hover-opacity"></i>
+    <i class="fa fa-twitter blog-hover-opacity"></i>
+    <i class="fa fa-linkedin blog-hover-opacity"></i>
+  </div>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="Slime.ts" target="_blank" class="blog-hover-text-green">Slime.ts</a></p>
+</footer>
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "blog-bar" + " blog-card" + " blog-animate-top" + " blog-white";
+    } else {
+        navbar.className = navbar.className.replace(" blog-card blog-animate-top blog-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("blog-show") == -1) {
+        x.className += " blog-show";
+    } else {
+        x.className = x.className.replace(" blog-show", "");
+    }
+}
+</script>
 
 </body>
-
 </html>
