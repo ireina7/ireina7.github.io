@@ -7,9 +7,9 @@ function switch_device() {
     }
 }
 function switch_to_mobile() {
-    window.location.href = "../mobile/index.html";
+    window.location.href = "./mobile/index.html";
 }
 function switch_to_pc() {
-    window.location.href = "../index.html";
+    window.location.href = "./index.html";
 }
 //# sourceMappingURL=device.js.map
