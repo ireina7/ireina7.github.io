@@ -3,10 +3,34 @@
 #+Date:   <2021-02-17 Wed>
 #+OPTIONS: html-style:nil
 #+SETUPFILE: ./org/theme-bigblow-local.setup
+#+BEGIN_EXPORT html
+<style>
+body {
+  background-image: url("../../img/girl_toho.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+}
+#content {
+  /* background-color: #FFFAF0; */
+  border-radius: 10px;
+}
+h1 {
+  background-color: white;
+  color: black;
+}
+.buttons {
+  background-color: white;
+  color: black;
+}
+</style>
+<img src="../../img/tentomon.jpg" style="width: 10em;" alt="The mist over the mountains">
+#+END_EXPORT
 
 :PRELUDE:
 /Where do you want to go?/
 :END:
+
 
 * Categories
 
