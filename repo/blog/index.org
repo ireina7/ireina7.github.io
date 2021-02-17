@@ -31,6 +31,8 @@ h1 {
 /Where do you want to go?/
 :END:
 
+* Recent
+** Blog Index map! <2021-02-18 Thu>
 
 * Categories
 
