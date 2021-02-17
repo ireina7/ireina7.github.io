@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ES2015",
+    "strict": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "lib": [
+      "es6",
+      "dom"
+    ]
+  },
+
+  "files": [
+    "src/core.ts",
+    "src/device.ts",
+    "mobile/src/core.ts"
+  ]
+}

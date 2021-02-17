@@ -1,0 +1,8 @@
+test/
+base/*
+*.js.map
+src/*.js
+mobile/src/*.js
+config.js
+mobile/config.js
+!.gitkeep
