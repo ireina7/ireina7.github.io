@@ -2,6 +2,7 @@
 #+Author: Ireina
 #+Date:   <2021-02-17 Wed>
 #+OPTIONS: html-style:nil
+#+OPTIONS: toc:2
 #+SETUPFILE: ./org/theme-bigblow-local.setup
 #+BEGIN_EXPORT html
 <style>
@@ -23,12 +24,18 @@ h1 {
   background-color: white;
   color: black;
 }
+.hsButton {
+    color: black;
+}
+#minitoc {
+  display: none;
+}
 </style>
-<img src="../../img/tentomon.jpg" style="width: 10em;" alt="The mist over the mountains">
+<img src="../../img/k-on-q.png" style="width: 65%;" alt="The mist over the mountains">
 #+END_EXPORT
 
 :PRELUDE:
-/Where do you want to go?/
+
 :END:
 
 * Recent
@@ -37,7 +44,8 @@ h1 {
 * Categories
 
 ** Programming
-*** Programming Languages
+*** TODO Programming Languages
+Scala, Haskell
 *** System
 
 ** Music
@@ -61,7 +69,6 @@ h1 {
 *** Death Note
 *** K-ON!
 
-
 * Diary
 
 ** 2021
@@ -70,3 +77,45 @@ h1 {
 *** April
 
 ** 2022
+* Navigation
+#+BEGIN_EXPORT html
+<script src="./src/sphere.js">
+</script>
+<div id="div1">
+  <a href="#" target="_blank" style="color: black;">Programming</a>
+  <a href="#" target="_blank" style="color: black;">Piano</a>
+  <a href="#" target="_blank" style="color: purple;">MusicTheory</a>
+  <a href="#" target="_blank" style="color: orange;">Guitar</a>
+  <a href="#" target="_blank" style="color: Crimson;">Scala</a>
+  <a href="#" target="_blank" style="color: purple;">Coq</a>
+  <a href="#" target="_blank" style="color: orange;">Rust</a>
+  <a href="#" target="_blank" style="color: purple;">Haskell</a>
+  <a href="#" target="_blank" style="color: red;">Agda</a>
+  <a href="#" target="_blank" style="color: green;">C++</a>
+  <a href="#" target="_blank" style="color: blue;">Algorithms</a>
+  <a href="#" target="_blank" style="color: black;">K-ON!</a>
+  <a href="#" target="_blank" style="color: black;">Compiler</a>
+  <a href="#" target="_blank" style="color: blue;">CNN</a>
+</div>
+<style>
+#div1 {
+  height: 400px;
+  width: 450px;
+  position: relative;
+  margin: 0px 60px 50px;
+}
+#div1 a {
+  position:absolute;top:0px;left:0px;
+  color:black;
+  font-family: Monaco;
+  font-weight:bold;
+  padding:3px 6px;
+}
+#div1 a:hover {
+  border:1px solid grey;
+  background:grey;
+  border-radius:5px;
+}
+</style>
+
+#+END_EXPORT
