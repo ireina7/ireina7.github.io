@@ -3,56 +3,30 @@
 #+Date:   <2021-02-17 Wed>
 #+OPTIONS: html-style:nil
 #+OPTIONS: toc:2
-#+SETUPFILE: ./org/theme-bigblow-local.setup
-#+BEGIN_EXPORT html
-<style>
-body {
-  background-image: url("../../img/girl_toho.jpg");
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-attachment: fixed;
-}
-#content {
-  /* background-color: #FFFAF0; */
-  border-radius: 10px;
-}
-h1 {
-  background-color: white;
-  color: black;
-}
-.buttons {
-  background-color: white;
-  color: black;
-}
-.hsButton {
-    color: black;
-}
-#minitoc {
-  display: none;
-}
-</style>
-<img src="../../img/k-on-q.png" style="width: 65%;" alt="The mist over the mountains">
-#+END_EXPORT
+#+INCLUDE: ./org/theme-blog-local.setup
 
 :PRELUDE:
 
 :END:
 
 * Recent
-** Blog Index map! <2021-02-18 Thu>
+** [[file:index.org][Blog Index map!]] <2021-02-18 Thu>                                             :meta:
+** [[file:the-root-of-music-theory.org][The root of music theory]] <2021-02-19 Fri>                                    :music:
+** [[file:index.org][CAGED system for guitar]] <2021-02-19 Fri>                                     :music:guitar:
 
 * Categories
 
 ** Programming
-*** TODO Programming Languages
-Scala, Haskell
+*** Programming Languages
 *** System
 
 ** Music
 *** Music Theory
+**** [[file:the-root-of-music-theory.org][The root of music theory]] <2021-02-19 Fri>                                  :music:
 *** Piano
 *** Keyboard
 *** Guitar
+**** [[file:index.org][CAGED system for guitar]] <2021-02-19 Fri>                                   :music:guitar:
 
 ** Linguistics
 *** Chinese
@@ -73,6 +47,10 @@ Scala, Haskell
 
 ** 2021
 *** February
+**** [[file:index.org][Blog Index map!]] <2021-02-18 Thu>                                           :meta:
+**** [[file:index.org][The root of music theory]] <2021-02-19 Fri>                                  :music:
+**** [[file:index.org][CAGED system for guitar]] <2021-02-19 Fri>                                   :music:guitar:
+
 *** March
 *** April
 
@@ -102,7 +80,7 @@ Scala, Haskell
   height: 400px;
   width: 450px;
   position: relative;
-  margin: 0px 60px 50px;
+  margin: 0px 15px 50px;
 }
 #div1 a {
   position:absolute;top:0px;left:0px;
@@ -119,3 +97,15 @@ Scala, Haskell
 </style>
 
 #+END_EXPORT
+
+* Filters
+** Search
+#+BEGIN_EXPORT html
+<input type="search" id="site-search" name="q"
+       aria-label="Search through site content"
+       style="width: 50%; border-radius:10px; border-style: solid; border-width: 1.5px;">
+
+<button id="search_button">Search</button>
+#+END_EXPORT
+
+** Tags

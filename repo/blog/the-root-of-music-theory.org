@@ -1,0 +1,13 @@
+#+Title:  The root of music theory
+#+Author: Ireina
+#+Date:   <2021-02-19 Fri>
+#+OPTIONS: html-style:nil
+#+OPTIONS: toc:2
+#+INCLUDE: ./org/theme-blog-local.setup
+
+
+* The puzzle of perfect (purity)
+
+** The _perfect 5th_
+
+** =II-V-I= progression
