@@ -12,7 +12,7 @@
 * Recent
 ** [[file:index.org][Blog Index map!]] <2021-02-18 Thu>                                             :meta:
 ** [[file:the-root-of-music-theory.org][The root of music theory]] <2021-02-19 Fri>                                    :music:
-** [[file:index.org][CAGED system for guitar]] <2021-02-19 Fri>                                     :music:guitar:
+** [[file:CAGED-system-for-guitar.org][CAGED system for guitar]] <2021-02-19 Fri>                                     :music:guitar:
 
 * Categories
 
@@ -26,7 +26,7 @@
 *** Piano
 *** Keyboard
 *** Guitar
-**** [[file:index.org][CAGED system for guitar]] <2021-02-19 Fri>                                   :music:guitar:
+**** [[file:CAGED-system-for-guitar.org][CAGED system for guitar]] <2021-02-19 Fri>                                   :music:guitar:
 
 ** Linguistics
 *** Chinese
@@ -49,7 +49,7 @@
 *** February
 **** [[file:index.org][Blog Index map!]] <2021-02-18 Thu>                                           :meta:
 **** [[file:index.org][The root of music theory]] <2021-02-19 Fri>                                  :music:
-**** [[file:index.org][CAGED system for guitar]] <2021-02-19 Fri>                                   :music:guitar:
+**** [[file:CAGED-system-for-guitar.org][CAGED system for guitar]] <2021-02-19 Fri>                                   :music:guitar:
 
 *** March
 *** April

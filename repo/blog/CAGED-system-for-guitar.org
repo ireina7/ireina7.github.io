@@ -1,0 +1,118 @@
+#+Title:  CAGED System for Guitar
+#+Author: Ireina
+#+Date:   <2021-02-21 Sun>
+#+OPTIONS: html-style:nil
+#+INCLUDE: ./org/theme-blog-local.setup
+
+* Chords
+
+** The =CAGED= rule
+As long as the root has the right position, you can use either of the five =CAGED= patterns
+to play chord at any position on the fret you want!
+
+** Major Triad chords
+#+BEGIN_EXPORT html
+<div id="major_chord_shapes">
+    <img src="./img/chord-shapes/C-maj-shape.png" alt="C Maj">
+    <img src="./img/chord-shapes/A-maj-shape.png" alt="A Maj">
+    <img src="./img/chord-shapes/G-maj-shape.png" alt="G Maj">
+    <img src="./img/chord-shapes/E-maj-shape.png" alt="E Maj">
+    <img src="./img/chord-shapes/D-maj-shape.png" alt="D Maj">
+</div>
+<style>
+#major_chord_shapes img {
+    width: 20%;
+    margin-bottom: 20px;
+    float: left;
+}
+</style>
+#+END_EXPORT
+
+
+** Major 7th chords
+#+BEGIN_EXPORT html
+<div id="major_7_chord_shapes">
+    <img src="./img/chord-shapes/C-maj-7-shape.png" alt="C Maj7">
+    <img src="./img/chord-shapes/A-maj-7-shape.png" alt="A Maj">
+    <img src="./img/chord-shapes/G-maj-7-shape.png" alt="G Maj">
+    <img src="./img/chord-shapes/E-maj-7-shape.png" alt="E Maj">
+    <img src="./img/chord-shapes/D-maj-7-shape.png" alt="D Maj">
+</div>
+<style>
+#major_7_chord_shapes img {
+    width: 20%;
+    margin-bottom: 20px;
+    float: left;
+}
+</style>
+#+END_EXPORT
+
+
+** Dominant 7th chords
+#+BEGIN_EXPORT html
+<div id="dominant_7_chord_shapes">
+    <img src="./img/chord-shapes/C-dom-7-shape.png" alt="C7">
+    <img src="./img/chord-shapes/A-dom-7-shape.png" alt="A7">
+    <img src="./img/chord-shapes/G-dom-7-shape.png" alt="G7">
+    <img src="./img/chord-shapes/E-dom-7-shape.png" alt="E7">
+    <img src="./img/chord-shapes/D-dom-7-shape.png" alt="D7">
+</div>
+<style>
+#dominant_7_chord_shapes img {
+    width: 20%;
+    margin-bottom: 20px;
+    float: left;
+}
+</style>
+#+END_EXPORT
+
+** Minor Triad chords
+#+BEGIN_EXPORT html
+<div id="minor_chord_shapes">
+    <img src="./img/chord-shapes/C-min-shape.png" alt="C min">
+    <img src="./img/chord-shapes/A-min-shape.png" alt="A min">
+    <img src="./img/chord-shapes/G-min-shape.png" alt="G min">
+    <img src="./img/chord-shapes/E-min-shape.png" alt="E min">
+    <img src="./img/chord-shapes/D-min-shape.png" alt="D min">
+</div>
+<style>
+#minor_chord_shapes img {
+    width: 20%;
+    margin-bottom: 20px;
+    float: left;
+}
+</style>
+#+END_EXPORT
+
+
+** Minor 7th chords
+#+BEGIN_EXPORT html
+<div id="minor_7_chord_shapes">
+    <img src="./img/chord-shapes/C-min-7-shape.png" alt="C min7">
+    <img src="./img/chord-shapes/A-min-7-shape.png" alt="A min7">
+    <img src="./img/chord-shapes/G-min-7-shape.png" alt="G min7">
+    <img src="./img/chord-shapes/E-min-7-shape.png" alt="E min7">
+    <img src="./img/chord-shapes/D-min-7-shape.png" alt="D min7">
+</div>
+<style>
+#minor_7_chord_shapes img {
+    width: 20%;
+    margin-bottom: 20px;
+    float: left;
+}
+</style>
+#+END_EXPORT
+
+
+** Usage
+- All rows are sorted as =CAGED= order.
+
+- Black: The lowest root.
+- Brown: The 1st (root).
+- Blue: The 3rd (flat).
+- Green: The 5th (flat).
+- Orange: The 7th (flat).
+- Grey: May be Omitted.
+
+(dim, aug, sus, add) chords are not included currently...
+You can infer them though.
