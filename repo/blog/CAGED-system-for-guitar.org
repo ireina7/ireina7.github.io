@@ -4,6 +4,22 @@
 #+OPTIONS: html-style:nil
 #+INCLUDE: ./org/theme-blog-local.setup
 
+
+* Basics
+** Local fretboard
+#+BEGIN_EXPORT html
+<div id="local_fret">
+    <img src="./img/guitar_fretboard_form.png" alt="local fret board">
+</div>
+<style>
+#local_fret img {
+    width: 45%;
+    margin-bottom: 20px;
+    float: left;
+}
+</style>
+#+END_EXPORT
+
 * Chords
 
 ** The =CAGED= rule
