@@ -139,7 +139,7 @@ var UI;
                 test.query = lines.filter((line) => line.trim() !== '').map((line) => parse_line_from_base(line));
                 goto_next_query();
                 console.log('Loaded ' + test.queries.length + ' queries.');
-                UI.show_message('Loaded ' + test.queries.length + ' queries.');
+                UI.show_message('成功载入' + test.queries.length + '道题。');
             };
             reader.readAsText(file);
         });
@@ -195,10 +195,10 @@ function check_answer() {
         return false;
     }
     if (res === unit.answer) {
-        UI.show_message('O');
+        UI.show_message('正确');
     }
     else {
-        UI.show_message('X');
+        UI.show_message('错误');
     }
 }
 function show_answer() {
