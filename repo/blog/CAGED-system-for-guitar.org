@@ -153,7 +153,12 @@ You can infer them though.
 #+END_EXPORT
 
 ** Note
+- Digits =1..7= are representations of =CDEFGAB= of Major scale.
+
 - In fact, these 5 shapes can be further decomposed as _mainly 2 patterns_.
   Explore the decomposition yourself!
 
 - You can also infer minor or any other scales yourself!
+
+* Modes
+Coming soon!
