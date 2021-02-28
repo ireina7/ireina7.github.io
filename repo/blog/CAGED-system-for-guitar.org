@@ -13,7 +13,7 @@
 </div>
 <style>
 #local_fret img {
-    width: 45%;
+    width: 35%;
     margin-bottom: 20px;
     float: left;
 }
@@ -132,3 +132,25 @@ to play chord at any position on the fret you want!
 
 (dim, aug, sus, add) chords are not included currently...
 You can infer them though.
+
+* Scales
+#+BEGIN_EXPORT html
+<div id="minor_7_chord_shapes">
+    <img src="./img/scale-shapes/guitar-scale-shape-C.png" alt="C shape">
+    <img src="./img/scale-shapes/guitar-scale-shape-A.png" alt="A shape">
+    <img src="./img/scale-shapes/guitar-scale-shape-G.png" alt="G shape">
+    <img src="./img/scale-shapes/guitar-scale-shape-E.png" alt="E shape">
+    <img src="./img/scale-shapes/guitar-scale-shape-D.png" alt="D shape">
+</div>
+<style>
+#minor_7_chord_shapes img {
+    width: 20%;
+    margin-bottom: 20px;
+    float: left;
+}
+</style>
+#+END_EXPORT
+
+** Note
+In fact, these 5 shapes can be further decomposed as _mainly 2 patterns_.
+Explore the decomposition yourself!

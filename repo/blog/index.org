@@ -10,9 +10,10 @@
 :END:
 
 * Recent
-** [[file:index.org][Blog Index map!]] <2021-02-18 Thu>                                             :meta:
-** [[file:the-root-of-music-theory.org][The root of music theory]] <2021-02-19 Fri>                                    :music:
+** [[file:next-term-plan.org][Next term plan:(]] <2021-02-25 Thu>                                            :school:
 ** [[file:CAGED-system-for-guitar.org][CAGED system for guitar]] <2021-02-19 Fri>                                     :music:guitar:
+** [[file:the-root-of-music-theory.org][The root of music theory]] <2021-02-19 Fri>                                    :music:
+** [[file:index.org][Blog Index map!]] <2021-02-18 Thu>                                             :meta:
 
 * Categories
 

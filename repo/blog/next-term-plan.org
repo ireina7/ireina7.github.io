@@ -1,0 +1,82 @@
+#+Title:  Next Term Plan
+#+Author: Ireina
+#+Date:   <2021-02-25 Thu>
+#+OPTIONS: html-style:nil
+#+OPTIONS: toc:2
+#+INCLUDE: ./org/theme-blog-local.setup
+
+:Prelogue:
+Time for next term!
+:End:
+
+
+* Plan [33%]
+
+** NEXT [#A] Course selection [0%]
+*** NEXT Calculation and plan [50%]
+**** DONE Basic courses and plans
+     CLOSED: [2021-02-25 Thu 18:52]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2021-02-25 Thu 18:52]
+     :END:
+**** NEXT Final plan
+*** NEXT Selection and set bias
+*** TODO Last check
+*** TODO Check results
+
+** DONE [#A] Package things to school [3/3]
+   CLOSED: [2021-02-26 Fri 21:27]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2021-02-26 Fri 21:27]
+   :END:
+*** DONE Trunk [1/1]
+    CLOSED: [2021-02-25 Thu 22:11]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2021-02-25 Thu 22:11]
+    :END:
+**** DONE Shaver
+     CLOSED: [2021-02-25 Thu 19:04]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2021-02-25 Thu 19:04]
+     :END:
+
+*** DONE Bag [5/5]
+    CLOSED: [2021-02-26 Fri 21:27]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2021-02-26 Fri 21:27]
+    :END:
+**** DONE [#A] Computer
+     CLOSED: [2021-02-26 Fri 21:27]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2021-02-26 Fri 21:27]
+     :END:
+**** DONE [#A] IPad
+     CLOSED: [2021-02-25 Thu 23:25]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2021-02-25 Thu 23:25]
+     :END:
+**** DONE [#A] Mobile phone
+     CLOSED: [2021-02-26 Fri 21:27]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2021-02-26 Fri 21:27]
+     :END:
+**** DONE [#A] Mobile hard drive
+     CLOSED: [2021-02-25 Thu 19:07]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2021-02-25 Thu 19:07]
+     :END:
+**** DONE [#A] Certifications
+     CLOSED: [2021-02-25 Thu 19:08]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2021-02-25 Thu 19:08]
+     :END:
+
+*** DONE Guitar
+    CLOSED: [2021-02-25 Thu 22:59]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2021-02-25 Thu 22:59]
+    :END:
+
+** NEXT [#B] Paper work [0%]
+*** NEXT Basic experiments again
+*** TODO Try advanced structures
