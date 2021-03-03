@@ -12,16 +12,24 @@ Time for next term!
 
 * Plan [33%]
 
-** NEXT [#A] Course selection [0%]
-*** NEXT Calculation and plan [50%]
+** NEXT [#A] Course selection [25%]
+*** DONE Calculation and plan [100%]
+    CLOSED: [2021-02-28 Sun 16:00]
+    :LOGBOOK:
+    - State "DONE"       from "NEXT"       [2021-02-28 Sun 16:00]
+    :END:
 **** DONE Basic courses and plans
      CLOSED: [2021-02-25 Thu 18:52]
      :LOGBOOK:
      - State "DONE"       from "NEXT"       [2021-02-25 Thu 18:52]
      :END:
-**** NEXT Final plan
+**** DONE Final plan
+     CLOSED: [2021-02-28 Sun 16:00]
+     :LOGBOOK:
+     - State "DONE"       from "NEXT"       [2021-02-28 Sun 16:00]
+     :END:
 *** NEXT Selection and set bias
-*** TODO Last check
+*** NEXT Last check
 *** TODO Check results
 
 ** DONE [#A] Package things to school [3/3]
